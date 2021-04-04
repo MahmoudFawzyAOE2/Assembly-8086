@@ -1,0 +1,22 @@
+org 100h
+jmp start
+m1:
+nam db 'Name: Mahmoud Fawzy Taha-Elaraby'
+db 0Dh,0Ah,'$'
+set db "Seat Number: 202"
+db 0Dh,0Ah,'$'
+acd db "Academic ID: 162262"
+db 0Dh,0Ah,'$'
+start:
+mov ah, 9
+mov dx, offset nam
+int 21h
+mov ah, 9
+mov dx, offset set
+int 21h
+mov ah, 9
+mov dx, offset acd
+int 21h
+mov ah, 0
+int 16h
+ret
