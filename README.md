@@ -6,3 +6,7 @@ these codes are made using 8086 assembly language & emu8086 emulator
   - task2-2 : input #n numbers and outputs are 2 lists of even and odd numbers
 
 Mahmoud Fawzy 
+
+# emu8086 resources:
+   - https://www.youtube.com/watch?v=U-oNDQyWQ5Q&t=3676s 
+   - https://www.youtube.com/playlist?list=PLtJ6B_0o6ehA1XVW1-7SRZMT6mOs4Camv
